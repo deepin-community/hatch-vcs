@@ -1,5 +1,48 @@
-template-repository (1.0-1) unstable; urgency=medium
+hatch-vcs (0.3.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Patch: Support setuptools_scm 7.1 in tests. (Closes: #1027623)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Stefano Rivera <stefanor@debian.org>  Sun, 01 Jan 2023 16:34:27 -0400
+
+hatch-vcs (0.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump hatchling Build-Dep, following upstream.
+
+ -- Stefano Rivera <stefanor@debian.org>  Wed, 14 Dec 2022 20:10:39 -0400
+
+hatch-vcs (0.2.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop patches, superseded upstream.
+  * Support the nocheck build profile.
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 09 Dec 2022 17:41:18 -0400
+
+hatch-vcs (0.2.0-4) unstable; urgency=medium
+
+  * Point d/watch to real upstream.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 13 Jul 2022 20:40:50 +0200
+
+hatch-vcs (0.2.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Add patch to fix compatibility with setuptools_scm >= 7.
+  * Bump standards-version to 4.6.1.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 04 Jul 2022 10:11:19 +0200
+
+hatch-vcs (0.2.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Make the primary maintainer the Debian Python Team.
+  * Add upstream metadata.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sun, 15 May 2022 16:51:23 -0400
+
+hatch-vcs (0.2.0-1) experimental; urgency=low
+
+  * Initial release. (Closes: #1009986)
+
+ -- Stefano Rivera <stefanor@debian.org>  Thu, 21 Apr 2022 15:14:39 -0400
